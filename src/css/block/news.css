@@ -1,0 +1,11 @@
+/* Новости */
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+    .news {
+        display: block;
+    }
+}
